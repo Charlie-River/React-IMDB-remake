@@ -1,0 +1,48 @@
+header {
+    display: flex;
+    margin: 0 10px 0 10px;
+    justify-content: space-between;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+img {
+    width:90px;
+    padding: 0 20px 0 20px;
+}
+
+button {
+    background-color: #111214;
+    border:none;
+    color: white;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    margin: 0 20px 0 20px;
+    background-color: #232325;
+    border: none;
+    border-radius: 5px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FAE263;
+    transform: translate(0px, -2px);
+    cursor: pointer;
+}

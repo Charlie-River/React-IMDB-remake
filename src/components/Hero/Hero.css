@@ -1,0 +1,57 @@
+.hero {
+    width: 100%;
+    height: auto;
+    background-image: var(--bg-image);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.2)
+  );
+}
+
+.hero-info {
+    width:30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating {
+    display: flex;
+    gap: 5px;
+}
+
+.btn-container {
+    display: flex;
+    gap: 20px;
+}
+
+.trailer-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #FAE263;
+    color: black;
+    padding: 12px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.info-btn {
+    padding: 12px 16px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
