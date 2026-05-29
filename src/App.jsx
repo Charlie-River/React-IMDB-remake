@@ -1,8 +1,9 @@
 
-import Header from "./components/Header/Header"
-import Hero from "./components/Hero/Hero"
+import Header from "./components/Header/Header.jsx"
+import Hero from "./components/Hero/Hero.jsx"
 import MovieCard from "./components/MovieCard/MovieCard.jsx"
 import MovieRow from "./components/MovieRow/MovieRow.jsx"
+import Footer from "./components/Footer/Footer.jsx"
 import movies from "./data.js"
 import './App.css'
 
@@ -17,6 +18,7 @@ function App() {
   return (
     <>
       <Header />
+      
       <Hero movie={featuredMovie}/>
       
       <h2 className="section-title">Trending</h2>
@@ -29,6 +31,8 @@ function App() {
 
       <h2 className="section-title">Popular</h2>
       <MovieRow movies={popularMovies}/>
+
+      <Footer />
     </>
   )
 }
