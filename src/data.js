@@ -8,7 +8,7 @@ export default [
         genre: ["Sci-Fi", "Adventure"],
         description: "A team of explorers travel through a wormhole in space to save humanity. Their mission will test the limits of love, courage and survival.",
         poster: "./images/interstellar.jpg",
-        backdrop: `${import.meta.env.BASE_URL}images/backdrop.jpg`,
+        backdrop: "./images/interstellar-bg.jpg"
         trending: true,
         topRated: true,
         popular: true
