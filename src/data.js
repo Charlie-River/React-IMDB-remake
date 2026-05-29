@@ -106,7 +106,7 @@ export default [
 
     {
         id: 8,
-        title: "Everything Everywhere All At Once",
+        title: "Everything Everywhere",
         year: 2022,
         rating: 7.9,
         runtime: "2h 19m",

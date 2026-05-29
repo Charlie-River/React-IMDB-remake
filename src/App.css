@@ -1,1 +1,23 @@
+.section-title {
+    position: relative;
+    padding-left: 1rem;
+    margin-left: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color:white;
+}
 
+.section-title::before {
+    content: "";
+    position: absolute;
+
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 4px;
+    height: 80%;
+
+    background-color: #f5c518;
+    border-radius: 999px;
+}

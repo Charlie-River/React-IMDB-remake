@@ -8,7 +8,7 @@ export default function Header(){
                 <button>
                     <FaBars size={24} />
                 </button>
-                <img src="./logo.png" alt="IMDB Logo"/>
+                <img src="./logo.png" alt="IMDB Logo" className="header-img"/>
                 <input type="text" placeholder="Search IMDb" />
             </div>
             <nav className="header-links">

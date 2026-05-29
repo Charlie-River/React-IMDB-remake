@@ -20,7 +20,7 @@ export default function Hero({movie}) {
                         <p>{movie.genre[0]}</p>
                     </div>
                     <p>{movie.description}</p>
-                    <div class="btn-container">
+                    <div className="btn-container">
                     <button className="trailer-btn"><FaPlay />Watch Trailer</button>
                     <button className="info-btn">More Info</button>
                     </div>
