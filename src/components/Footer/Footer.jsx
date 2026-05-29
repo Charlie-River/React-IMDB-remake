@@ -5,7 +5,7 @@ export default function Footer(){
     return(
         <footer>
             <div>
-                <img src="./public/logo.png" alt="IMDB icon" className="footer-img"/>
+                <img src="./logo.png" alt="IMDB icon" className="footer-img"/>
             </div>
 
             <div className="footer-list">
