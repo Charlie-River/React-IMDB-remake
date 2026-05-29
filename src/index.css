@@ -1,4 +1,9 @@
 :root {
     background-color: #111214;
     font-family: Roboto, Arial, sans-serif;
+    width:100%;
+}
+
+body {
+    margin:0;
 }

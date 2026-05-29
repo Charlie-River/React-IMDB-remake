@@ -6,7 +6,7 @@ export default [
         rating: 8.7,
         runtime: "2h 49m",
         genre: ["Sci-Fi", "Adventure"],
-        description: "A team of explorers travel through a wormhole in space to save humanity.",
+        description: "A team of explorers travel through a wormhole in space to save humanity. Their mission will test the limits of love, courage and survival.",
         poster: "./images/interstellar.jpg",
         backdrop: "./images/interstellar-bg.jpg",
         trending: true,

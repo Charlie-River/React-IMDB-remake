@@ -1,28 +1,46 @@
 .hero {
-    width: 100%;
-    height: auto;
     background-image: var(--bg-image);
+    position: relative;
+    height: 70vh;
+
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
+
+    display: flex;
+    align-items: flex-end;
 }
 
 .hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0.8),
-    rgba(0, 0, 0, 0.2)
-  );
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 0.5)
+    );
 }
 
-.hero-info {
-    width:30%;
+.hero-content {
+    max-width: 500px;
+    position: relative;
+    z-index: 1;
+    color: white;
+    padding: 2rem;
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+.hero-row {
+    width:40%;
     display: flex;
     justify-content: space-between;
 }
+
 
 .rating {
     display: flex;
@@ -42,16 +60,24 @@
     color: black;
     padding: 12px 16px;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
 }
 
 .info-btn {
-    padding: 12px 16px;
-    background: transparent;
-    color: white;
-    border: 1px solid white;
-    cursor: pointer;
     display: flex;
     align-items: center;
     gap: 8px;
+    background: transparent;
+    color: white;
+    padding: 12px 16px;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.trailer-btn:hover, 
+.info-btn:hover {
+    transform: translate(0px, -2px);
+    cursor: pointer;
 }
