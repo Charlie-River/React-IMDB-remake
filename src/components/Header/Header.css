@@ -1,7 +1,7 @@
 header {
     max-height: 100px;
     display: flex;
-    margin: 0 10px 0 10px;
+    margin: 0 10px;
     justify-content: space-between;
 }
 
@@ -19,7 +19,7 @@ header {
 
 .header-img {
     max-width: 90px;
-    padding: 0 20px 0 20px;
+    padding: 0 20px;
 }
 
 button {
@@ -31,7 +31,7 @@ button {
 input {
     width: 300px;
     height: 30px;
-    margin: 0 20px 0 20px;
+    margin: 0 20px;
     background-color: #232325;
     border: none;
     border-radius: 5px;
@@ -46,4 +46,36 @@ a:hover {
     color: #FAE263;
     transform: translate(0px, -2px);
     cursor: pointer;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        max-height: none;
+        padding: 1rem 0;
+    }
+
+    .header-icons {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .header-links {
+        margin-right: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    input {
+        width: min(300px, 90%);
+        margin: 0;
+    }
 }
